@@ -15,6 +15,12 @@ export default defineConfig({
     icon(),
     starlight({
         title: 'Docs Avec Mon Logo',
+        sidebar: [
+          {
+            label: 'Docuception',
+            autogenerate: { directory: 'docuception/' },
+          },
+        ],
       },
     )
   ]
